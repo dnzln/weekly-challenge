@@ -1,0 +1,242 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #039ae0;
+    font-size: 13px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+}
+
+.top-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    display: inline;
+    margin-right: 16px;
+}
+
+.menu-item-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-item-link:hover {
+    text-decoration: underline;
+}
+
+.svg {
+    height: 25px;
+    width: 25px;
+    padding: 7px;
+    fill: rgb(247, 245, 245);
+    border-radius: 50%;
+}
+
+.popup-wrapper {
+    height: 500px;
+    width: 320px;
+    padding: 0 4px;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px 0px rgb(60 64 67 / 30%),
+    0px 2px 6px 2px rgb(60 64 67 / 15%);
+    border-radius: 9px;
+}
+
+.popup-content {
+    height: 500px;
+    overflow: auto;
+}
+
+.popup-list {
+    padding: 10px 0 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.popup-list-item {
+    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #202124;
+    letter-spacing: 0.09px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    display: inline-block;
+    height: fit-content;
+    width: 72px;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.popup-list-item:hover {
+    background-color: rgba(106, 168, 255, 0.135);
+    cursor: pointer;
+}
+
+.app-name {
+    display: block;
+    text-align: center;
+}
+
+.app-icon {
+    display: block;
+    margin: 0 auto;
+    height: 64px;
+    width: 64px;
+    background-size: 64px 2410px;
+}
+
+.bottom-text {
+    padding: 10px 30px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin: 15px 0 15px;
+}
+
+.bottom-link {
+    color: #0064ff;
+    text-decoration: none;
+}
+
+.bottom-link:hover {
+    text-decoration: underline;
+}
+
+.icon1 {
+    background: url(apps-icons.png);
+    background-position: 0 -1656px;
+    background-size: 64px 2410px;
+}
+
+.icon2 {
+    background: url(apps-icons.png);
+    background-position: 0 -414px;
+    background-size: 64px 2410px;
+}
+
+.icon3 {
+    background: url(apps-icons.png);
+    background-position: 0 -2001px;
+    background-size: 64px 2410px;
+}
+
+.icon4 {
+    background: url(apps-icons.png);
+    background-position: 0 -1311px;
+    background-size: 64px 2410px;
+}
+
+.icon5 {
+    background: url(apps-icons.png);
+    background-position: 0 -552px;
+    background-size: 64px 2410px;
+}
+
+.icon6 {
+    background: url(apps-icons.png);
+    background-position: 0 -207px;
+    background-size: 64px 2410px;
+}
+
+.icon7 {
+    background: url(apps-icons.png);
+    background-position: 0 -1035px;
+    background-size: 64px 2410px;
+}
+
+.icon8 {
+    background: url(apps-icons.png);
+    background-position: 0 -1104px;
+    background-size: 64px 2410px;
+}
+
+.icon9 {
+    background: url(apps-icons.png);
+    background-position: 0 -828px;
+    background-size: 64px 2410px;
+}
+
+.icon10 {
+    background: url(apps-icons.png);
+    background-size: 64px 2410px;
+}
+
+.icon11 {
+    background: url(apps-icons.png);
+    background-position: 0 -2346px;
+    background-size: 64px 2410px;
+}
+
+.icon12 {
+    background: url(apps-icons.png);
+    background-position: 0 -2070px;
+    background-size: 64px 2410px;
+}
+
+.icon13 {
+    background: url(apps-icons.png);
+    background-position: 0 -1518px;
+    background-size: 64px 2410px;
+}
+
+.icon14 {
+    background: url(apps-icons.png);
+    background-position: 0 -67px;
+    background-size: 64px 2410px;
+}
+
+.icon15 {
+    background: url(apps-icons.png);
+    background-position: 0 -1449px;
+    background-size: 64px 2410px;
+}
+
+.icon16 {
+    background: url(apps-icons.png);
+    background-position: 0 -2139px;
+    background-size: 64px 2410px;
+}
+
+.icon17 {
+    background: url(apps-icons.png);
+    background-position: 0 -1587px;
+    background-size: 64px 2410px;
+}
+
+.icon18 {
+    background: url(apps-icons.png);
+    background-position: 0 -897px;
+    background-size: 64px 2410px;
+}
+
+.icon19 {
+    background: url(apps-icons.png);
+    background-position: 0 -1172px;
+    background-size: 64px 2410px;
+}
+
+.icon20 {
+    background: url(apps-icons.png);
+    background-position: 0 -621px;
+    background-size: 64px 2410px;
+}
+
+.icon21 {
+    background: url(apps-icons.png);
+    background-position: 0 -1725px;
+    background-size: 64px 2410px;
+}
